@@ -1,0 +1,11 @@
+config.json
+*.apk
+*.idsig
+*.jks
+*.keystore
+dist/
+build/
+__pycache__/
+*.pyc
+*.log
+.tools/

@@ -1,0 +1,9 @@
+{
+  "adb": "tools\\scrcpy\\adb.exe",
+  "phone_ip": "100.x.y.z",
+  "token": "<64-hex controller token, generated at build time>",
+  "pc_ip": "100.a.b.c",
+  "adb_port": 0,
+  "scrcpy": "tools\\scrcpy\\scrcpy.exe",
+  "device_serial": "<your device serial>"
+}
