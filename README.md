@@ -105,6 +105,20 @@ Use the port from the pairing dialog, not the connection port. Pairing codes exp
 
 This is a personal build, not a hardened multi-tenant product. Ship your own tokens, your own keystore, your own tailnet.
 
+## Launch modes (the three shortcuts)
+
+There is no separate "Ghost Mirror" application. The mirror launcher is a mode of
+the same `GhostLink.exe`:
+
+| Shortcut | Command | What it does |
+|---|---|---|
+| **GHOST MIRROR** / Android Mirror | `GhostLink.exe --connect` | Connects immediately and opens the mirror with the widget visible |
+| **GHOST LINK** | `GhostLink.exe` | Opens the controller, no automatic connection |
+| **Ghost Link Receiver** (Startup) | `GhostLink.exe --background` | Runs quietly at sign-in so the phone's button can reach the PC |
+
+Same binary, same code, same repo. If you are looking for the mirror button, it is
+`--connect`.
+
 ## Troubleshooting
 
 | Symptom | Cause | Fix |
