@@ -143,10 +143,6 @@ Same binary, same code, same repo. If you are looking for the mirror button, it 
 
 **Why is it not on the Play Store?** It requests privileged permissions and drives ADB. That is a sideload tool by nature.
 
-## Keywords for the lost
-
-Android screen mirroring over Tailscale, scrcpy Windows GUI, wireless ADB without USB, remote phone control over VPN, phone to PC mirroring, PC to phone mirroring, ADB over WireGuard, Tailscale remote Android, headless Android mirroring, scrcpy launcher, Android wireless debugging automation, private screen sharing, no cloud relay screen mirroring.
-
 ## Credits and legal
 
 Built on [scrcpy](https://github.com/Genymobile/scrcpy) and [Tailscale](https://tailscale.com). Android wireless debugging documented by [Google](https://developer.android.com/tools/adb#connect-to-a-device-over-wi-fi). Foreground service patterns per [Android docs](https://developer.android.com/develop/background-work/services/fgs/service-types).
